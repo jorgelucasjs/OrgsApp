@@ -1,12 +1,17 @@
 import React from 'react';
 import {StatusBar, SafeAreaView, StyleSheet} from 'react-native';
-import AppRotas from './src/rotas/AppRotas';
+import {NavigationContainer} from '@react-navigation/native';
+import Home from './src/telas/Home';
+import Home from './src/telas/Home';
+
 
 export default function App() {
   return (
     <SafeAreaView style={styles.screen}>
       <StatusBar />
-      <AppRotas />
+      <NavigationContainer>
+        <Home />
+      </NavigationContainer>
     </SafeAreaView>
   );
 }
