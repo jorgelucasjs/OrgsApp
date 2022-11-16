@@ -25,13 +25,13 @@ export default function Cesta({detalhes, itens, produtor}) {
                 <Detalhes {...detalhes} produtor={produtor} />
                 <Texto style={estilos.titulo}>{tituloItens}</Texto>
               </View>
-            </>
+            </>;
           );
         }}
         style={estilos.lista}
       />
     </>
-  );
+  );;
 }
 
 const estilos = StyleSheet.create({

@@ -31,7 +31,7 @@ export default function Cesta({detalhes, itens, produtor}) {
         style={estilos.lista}
       />
     </>
-  );
+  );;
 }
 
 const estilos = StyleSheet.create({
