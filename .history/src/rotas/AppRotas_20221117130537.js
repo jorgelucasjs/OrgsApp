@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-
+import Home from '../telas/Home';
 import MelhoresProdutores from '../telas/MelhoresProdutores';
 import ProdutorRotas from './ProdutorRotas';
 const Tab = createBottomTabNavigator();
